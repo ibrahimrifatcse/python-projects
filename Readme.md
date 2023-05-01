@@ -56,3 +56,85 @@
 30. Online Marketplace: Build an online marketplace with data structures like binary search tree and GUI.
 
 These projects will help you become an advanced Python developer with a solid understanding of data structures, algorithms, and machine learning concepts. Good luck with your learning!
+
+##  [Coding a Complete Chess Game AI With Python](https://www.youtube.com/watch?v=OpL0Gcfn4B4&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=13&t=1493s&ab_channel=CodingSpot)
+
+##   [20 projects begineer to advanced ](https://www.youtube.com/watch?v=OKuiyX5k6zg&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=5&t=1785s&ab_channel=WsCubeTech)
+Email Validation  in Python ( Using String Functions )  
+Email Validation  in Python ( Using Regex )  
+QRcode using python   
+Shutdown app using Python with GUI  
+Speed calculator  
+Internet Speed Test using Python with GUI 
+CONVERT TEXT TO HANDWRITING 
+YouTube Video Downloader  
+Desktop Notifier using Python ( Python code run in the background )  
+Convert Python File to exe ( 1. pyintaller , 2. auto-py-to-exe ) 
+Phone Number Details using python 
+Instagram Automate  
+Website Blocker using Python  
+Skype Automate   
+Voice Assistant   
+Gmail Automate  
+Google Translate  
+Digital Clock Using Python With GUI  
+Python File ( .py ) To Convert Into Mobile App ( .apk )  
+Screen Recorder Using  Python  
+
+## Randome 20 : [tutorial](https://www.youtube.com/watch?v=pdy3nh1tn6I&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=2&t=4938s&ab_channel=freeCodeCamp.org)
+
+1.Email Sender    
+2.Word Replacement Program    
+3.Basic Calculator
+4.Email Slicer
+5.Binary Search Algorithm
+6.Quiz Program
+7.QR Code Generator
+8.Interest Payment Calculator
+9.Random Password Generator
+10.Dice Rolling Simulator
+11.Site Connectivity Checker
+12.Currency Converter
+13.Leap Year Checker
+14.Word Dictionary
+15.Rock, Paper, Scissors
+16.Python Face Detection
+17.Python Automation
+18.Web Scraper
+19.Image Resizer
+20.Graph Plotter
+ 
+##  [Facial Recognition attendance system using python](https://www.youtube.com/watch?v=A6464U4bPPQ&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=9&ab_channel=Iknowpython)
+ 
+ ## [Make two players Chess in Python](https://www.youtube.com/watch?v=X-e0jk4I938&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=14&ab_channel=LeMasterTech)
+ 
+ ## [Coding an Unbeatable Tic Tac Toe AI Using Python and the Minimax Algorithm](https://www.youtube.com/watch?v=Bk9hlNZc6sE&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=16&ab_channel=CodingSpot)
+ 
+ ##   [ython Django Realtime Chat Project](https://www.youtube.com/watch?v=SF1k_Twr9cg&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=27&ab_channel=CodeWithStein)
+
+##  [5 project](https://www.youtube.com/watch?v=_xf1TMs0ysk&list=PLI-10DbibqfN1WB5oPb3cVC0ERFb01rFC&index=11&ab_channel=TinaHuang)
+1.Automating Decision Making
+2.personal Finance Dashbord
+3.Build a game
+4.NFT collection network analysis
+5.prediction ethereum price
+
+##   [12 project](https://www.youtube.com/watch?v=8ext9G7xspg&t=249s&ab_channel=freeCodeCamp.org)
+1.Madlibs 
+2.Guess the Number (computer) 
+3.Guess the Number (user)
+4.Rock Paper Scissors
+5.Hangman
+6.Tic-Tac-Toe
+7.Tic-Tac-Toe AI
+8.Binary Search 
+9.Minesweeper 
+10.Sudoku Solver 
+11.Photo Manipulation in Python 
+12.Markov Chain Text Composer
+
+
+ 
+ 
+ 
+ 
