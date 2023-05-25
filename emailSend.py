@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Connect to Google Spreadsheet
 gc = gspread.service_account(filename='ibrahim.json')
-spreadsheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/18xj3j9LW1_Wt4fSW_dHHLpL0Va46F9jMa7jlRi89Ucw/edit#gid=0')
+spreadsheet = gc.open_by_url('https://docs.google.com/spreadsheets/d')
 worksheet = spreadsheet.sheet1
 
 # Get email addresses and names from columns A and B
