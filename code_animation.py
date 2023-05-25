@@ -5,7 +5,7 @@ from pygments import highlight, lex
 from pygments.lexers import get_lexer_by_name
 from pygments.token import Token
 import time
-
+ 
 # Configuration
 code = '''
 package com.user.define.exception.handling;
