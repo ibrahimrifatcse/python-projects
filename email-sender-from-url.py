@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Connect to Google Spreadsheet
 gc = gspread.service_account(filename='ibrahim.json')
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/18xj3j9LW1_Wt4fSW_dHHLpL0Va46F9jMa7jlRi89Ucw/edit#gid=0'
+spreadsheet_url = 'https://docs.google.com/spreadsheet'
 worksheet_name = 'ibrahim'
 spreadsheet = gc.open_by_url(spreadsheet_url)
 worksheet = spreadsheet.worksheet(worksheet_name)
