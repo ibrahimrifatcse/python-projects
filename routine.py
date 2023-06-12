@@ -9,13 +9,17 @@ routine = {
         {"time": "6:00 AM", "task": "Wake up early and perform Fajr prayer."},
         {"time": "6:30 AM", "task": "Spend 30 minutes on English language practice."},
         {"time": "7:00 AM", "task": "Take a shower and get ready for the day."},
-        {"time": "7:30 AM", "task": "Have a healthy breakfast."}
+        {"time": "7:30 AM", "task": "Have a healthy breakfast."},
+        {"time": "8:00 AM", "task": "Competitive programming practice"},
+        {"time": "9:00 AM", "task": "Machine learning course"},
+        {"time": "10:00 AM", "task": "Backend course"}
     ],
     "University Days (Monday to Thursday)": [
         {"time": "9:00 AM", "task": "Attend university."},
         {"time": "1:00 PM", "task": "Review class notes or work on assignments during breaks."},
         {"time": "5:00 PM", "task": "Make a to-do list and prioritize tasks."},
-        {"time": "7:00 PM", "task": "Allocate time for studying."}
+        {"time": "7:00 PM", "task": "Allocate time for studying."},
+        {"time": "8:00 PM", "task": "Codeforces competition"}
     ],
     "Evening Routine": [
         {"time": "5:00 PM", "task": "Perform Asr prayer."},
@@ -33,9 +37,11 @@ routine = {
         {"time": "1:00 PM", "task": "Review topics covered during the week and clarify doubts."},
         {"time": "3:00 PM", "task": "Spend more time on learning programming languages and practicing coding exercises."},
         {"time": "5:00 PM", "task": "Take breaks and engage in enjoyable activities."},
-        {"time": "7:00 PM", "task": "Use time for personal development and improving English speaking skills."}
+        {"time": "7:00 PM", "task": "Use time for personal development and improving English speaking skills."},
+        {"time": "8:00 PM", "task": "Competitive programming course"}
     ]
 }
+
 
 # Generate PDF
 pdf_filename = 'routine.pdf'
