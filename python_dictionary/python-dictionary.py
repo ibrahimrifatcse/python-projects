@@ -35,7 +35,7 @@ colorama.init()
 ...     print('Single')
 ... else:
 ...     print('More'
-### ❌    ⏩ three # for ending code 🔚
+### ❌    ⏩ three # for ending code 🔚 you have to use three # after paste/input code
 -----------------------------------------------------------
 ⏩ Enter the output: More
 -----------------------------------------------------------
