@@ -4,7 +4,45 @@ import colorama
 colorama.init()
 
 # Step 1: Create a Python dictionary with word data
-# You can add more words and definitions to this dictionary
+# You can add more words and definitions to this dictionary.
+# If you enter "**add", you will go to the data add option. When you give input for word, definition, and code, you should add "###" after the code.
+# Here's an example:
+'''
+-----------------------------------------------------------
+⏩ Enter a word to search (or 'q' to quit): **add  ⏮🟢
+-----------------------------------------------------------
+                ⬇
+-----------------------------------------------------------                
+⏩ Enter the new word: if Statements 
+-----------------------------------------------------------
+                 ⬇
+-----------------------------------------------------------                 
+⏩ Enter the definition: Perhaps the most well-known statement type is the if statement.
+-----------------------------------------------------------
+                ⬇
+-----------------------------------------------------------
+⏩ Enter the code (end the code input with a line containing only '###'): >>> x = int(input("Please enter an integer: "))
+-----------------------------------------------------------
+                ⬇
+-----------------------------------------------------------                
+⏩⏩Please enter an integer: 42
+>>> if x < 0:
+...     x = 0
+...     print('Negative changed to zero')
+... elif x == 0:
+...     print('Zero')
+... elif x == 1:
+...     print('Single')
+... else:
+...     print('More'
+### ❌    ⏩ three # for ending code 🔚
+-----------------------------------------------------------
+⏩ Enter the output: More
+-----------------------------------------------------------
+✅ The word 'if Statements' has been added.
+-----------------------------------------------------------
+'''
+
 all_about_python_data = {
     "abs(x)": {
         "definition": "Return the absolute value of a number.",
@@ -60,13 +98,6 @@ def any(iterable):
 def get_similar_words(input_word, words_list, num_similar=5):
     return difflib.get_close_matches(input_word, [word for word in words_list], n=num_similar, cutoff=0.01)
 
-def get_word_info(word):
-    word_data = all_about_python_data[word]
-    print(colorama.Fore.BLUE + "Keyword name:" + colorama.Style.RESET_ALL, word)
-    print(colorama.Fore.BLUE + "Definition:" + colorama.Style.RESET_ALL, word_data['definition'])
-    print(colorama.Fore.GREEN + "Code:" + colorama.Style.RESET_ALL, word_data['code'])
-    print(colorama.Fore.YELLOW + "Output:" + colorama.Style.RESET_ALL, word_data['output'])
-
 def search_word():
     while True:
         user_input = input(colorama.Fore.WHITE + colorama.Back.GREEN + "Enter a word to search (or 'q' to quit): " + colorama.Style.RESET_ALL)
@@ -74,10 +105,39 @@ def search_word():
             print("Exiting the program.")
             break
 
-        found_keywords = []
-        for keyword, data in all_about_python_data.items():
-            if user_input.lower() in keyword.lower():
-                found_keywords.append(keyword)
+        if user_input == '**add':
+            # Switch to add mode
+            while True:
+                new_word = input("Enter the new word: ")
+                if new_word in all_about_python_data:
+                    print("The word already exists. Please enter a new word.")
+                else:
+                    new_definition = input("Enter the definition: ")
+                    new_code = input("Enter the code (end the code input with a line containing only '###'): ")
+                    code_lines = []
+                    while True:
+                        code_line = input()
+                        if code_line.strip() == "###":
+                            break
+                        code_lines.append(code_line)
+                    new_code = "\n".join(code_lines)
+                    new_output = input("Enter the output: ")
+                    all_about_python_data[new_word] = {
+                        "definition": new_definition,
+                        "code": colorama.Fore.GREEN + new_code + colorama.Style.RESET_ALL,
+                        "output": colorama.Fore.YELLOW + new_output + colorama.Style.RESET_ALL
+                    }
+                    print(f"The word '{new_word}' has been added.")
+                    break
+        elif user_input == '**move':
+            # Switch to search mode
+            continue
+        else:
+            found_keywords = []
+            for keyword, data in all_about_python_data.items():
+                if user_input.lower() in keyword.lower():
+                    found_keywords.append(keyword)
+
 
         if not found_keywords:
             if len(user_input) < 3:
